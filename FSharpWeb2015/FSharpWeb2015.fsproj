@@ -139,7 +139,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Content Include="packages.config" />
-    <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">

@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FSharpWeb2015/v14
+/FSharpWeb2015/bin
+/FSharpWeb2015/obj/Debug
+/packages
