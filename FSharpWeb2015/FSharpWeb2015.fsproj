@@ -112,8 +112,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\KoGrid.css" />
+    <Content Include="Scripts\SearchModel.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
@@ -122,6 +123,12 @@
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\KoExtensions.js" />
+    <Content Include="Scripts\knockout-2.0.0.js" />
+    <Content Include="Scripts\knockout-2.0.0.debug.js" />
+    <Content Include="Scripts\koGrid-2.1.1.js" />
+    <Content Include="Scripts\koGrid-2.1.1.debug.js" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.svg" />

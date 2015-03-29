@@ -1,9 +1,5 @@
-@model IEnumerable<FSharpWeb2015.Dvd>
+@model FSharpWeb2015.Dvd
 @using FSharpWeb2015.ViewModels
-@foreach (var m in Model)
-{
-	<p>@m.Name</p>
-}
 	@{
 		ViewBag.Title = "Index";
 		var shownOrderedProperties = ViewData.ModelMetadata.Properties.OrderBy(a => a.PropertyName).ToArray();
@@ -82,9 +78,9 @@
 		</script>
 		<script src="~/Scripts/SearchModel.js"></script>
 		<script>
-			var url = "/OData/Universes";
+			var url = "/OData/Dvd";
 
-			var wcfUrl= 'http://localhost:4339/starfleetcommanderservice.svc/Universes';
+			var wcfUrl= '@("~/dvdservice.svc/dvds")';
 
 			var ViewModel = function (odataUrl,wcfUrl) {
 				var ko = window.ko;
